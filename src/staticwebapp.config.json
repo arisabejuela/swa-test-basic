@@ -5,7 +5,7 @@
       "rewrite": "/admin"
     },
     {
-      "route": "/admin*",
+      "route": "/admin",
       "allowedRoles": ["admin"]
     }
   ],
