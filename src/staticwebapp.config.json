@@ -2,6 +2,7 @@
   "routes": [
     {
       "route": "/admin*",
+      "rewrite": "/admin",
       "allowedRoles": ["admin"]
     }
   ],
