@@ -4,6 +4,11 @@
       "route": "/admin*",
       "rewrite": "/admin",
       "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/api/*",
+      "methods": ["GET"],
+      "allowedRoles": ["admin"]
     }
   ],
   "responseOverrides": {
